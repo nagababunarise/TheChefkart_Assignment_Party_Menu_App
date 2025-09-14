@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./IngredientModal.css";
 import { GoChevronLeft } from "react-icons/go";
-import ingredient_cover_img from "../assets/ing.png";
+import ingLogo from "../assets/ing.png";
 import mockDishes from "../Data/mockDishes";
 
 const IngredientModal = () => {
@@ -29,7 +29,7 @@ const IngredientModal = () => {
           <p>For 2 People</p>
         </div>
         <img
-          src={ingredient_cover_img}
+          src={ingLogo}
           alt="cover_image"
           className="ing__img"
         />
