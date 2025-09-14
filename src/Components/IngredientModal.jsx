@@ -2,7 +2,7 @@ import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import "./IngredientModal.css";
 import { GoChevronLeft } from "react-icons/go";
-import ingLogo from "../assets/ing.png";
+import ingLogo from "../assets/Ing.png";
 import mockDishes from "../Data/mockDishes";
 
 const IngredientModal = () => {
