@@ -55,7 +55,7 @@
   margin: 0;
   opacity: 1;
   cursor: pointer;
-  font-size: 13px;
+  font-size: 10px;
   transition: all 0.3s ease;
 }
 .dishList__menu li:hover {
