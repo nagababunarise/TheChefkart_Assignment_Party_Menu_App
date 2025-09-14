@@ -1,0 +1,73 @@
+.dish__card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px 15px 25px 15px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dish__content__card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dish__content__card h1 {
+  font-size: 19px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.dish__content__card p {
+  font-size: 15px;
+  color: #686767;
+}
+
+.Ingredient__Btn__Section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.Ingredient__Btn__Section img {
+  width: 20px;
+}
+.Ingredient__Btn__Section button {
+  padding-left: 3px;
+  border: 0;
+  font-size: 16px;
+  background: none;
+  color: rgb(255, 111, 0);
+  font-weight: 700;
+  cursor: pointer;
+  padding-top: 3px;
+}
+
+.dish__image__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.dish__image__card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+.dish__image__card button {
+  padding: 10px 20px;
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  border: 0;
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #09e81c;
+  font-weight: 700;
+  cursor: pointer;
+}

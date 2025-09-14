@@ -1,0 +1,105 @@
+:root {
+  --min-width: 280px;
+  --border-radius: 17px;
+  --border-color: #333;
+  --font-size: 17px;
+}
+
+.dishList-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.dishList__search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--border-color);
+  padding: 10px;
+  border-radius: var(--border-radius);
+}
+
+.dishList__search-input {
+  flex: 1;
+  min-width: var(--min-width);
+  padding: 10px;
+  border: none;
+  background: transparent;
+  font-size: var(--font-size);
+  outline: none;
+}
+
+.dishList__search-input::placeholder {
+  font-size: var(--font-size);
+  opacity: 0.8;
+}
+
+.right-arrow {
+  font-size: 40px;
+}
+
+.dishList__menu {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  list-style: none;
+  min-width: var(--min-width);
+  padding: 20px 0px 0px 0px;
+  margin: 0;
+}
+.dishList__menu li {
+  border: solid 0.5px #2c2b2b;
+  padding: 5px 5px 5px 5px;
+  border-radius: 5px;
+  color: #141010;
+  margin: 0;
+  opacity: 1;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+.dishList__menu li:hover {
+  background: #f2f2f2;
+}
+
+.dishList__menu li.active {
+  background: orange;
+  color: white;
+  border-color: orange;
+  font-weight: 600;
+}
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-bar p {
+  font-weight: 600;
+}
+
+.continue-btn {
+  background: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.dish__notFound__msg {
+  font-size: 27px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40%;
+  font-style: italic;
+}

@@ -1,0 +1,75 @@
+.ingredients__main__container {
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.heading__section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: solid 1px #dad4d4;
+  padding-top: 16px;
+  padding-bottom: 8px;
+}
+.left__arrow_symbol {
+  font-size: 25px;
+  cursor: pointer;
+}
+.heading__section h1 {
+  font-size: 20px;
+  font-weight: 550;
+  color: #222020;
+  letter-spacing: 1px;
+}
+.ingredients__content__responsive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  border-bottom: solid 1px #d1cdcd;
+  padding-bottom: 10px;
+}
+.ingredients__content__card {
+  display: flex;
+  flex-direction: column;
+}
+.ingredients__content__card h2 {
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.ingredients__content__card p {
+  font-size: 12px;
+  color: #515050;
+}
+.ing__img {
+  height: 200px;
+  width: 200px;
+  top: 97px;
+  left: 195px;
+  border: 1px;
+}
+.Ing__heading {
+  padding-top: 50px;
+  font-weight: 500;
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+
+.ingredients__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  border-bottom: solid 1px #dad4d4;
+  padding-bottom: 10px;
+}
+
+.ingredients__table th,
+.ingredients__table td {
+  padding: 10px;
+  text-align: left;
+}
+
+.ingredients__table th {
+  background: #f4f4f4;
+}

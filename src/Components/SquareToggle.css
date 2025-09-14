@@ -1,0 +1,33 @@
+.square-btn-background {
+  background: #f7f7f7;
+  padding: 8px 6px 8px 6px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 2px 2px #c6c3c3;
+}
+
+.square-toggle {
+  width: 50px;
+  height: 20px;
+  border: 3px solid;
+  border-radius: 8px; /* square with slight round edges */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background: #f7f7f7;
+}
+
+.square-toggle.active {
+  justify-content: flex-end;
+  padding-right: 0;
+}
+
+.square-circle {
+  width: 24px;
+  height: 20px;
+  border: 2px solid;
+  border-radius: 6px; /* makes it squarish */
+  transition: all 0.3s ease;
+}
