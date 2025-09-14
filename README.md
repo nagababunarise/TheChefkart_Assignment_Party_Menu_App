@@ -14,3 +14,12 @@ Technologies----->
 > Html
 > React Icons
 > JSX
+
+
+⚠️ Note
+
+This project is designed only for mobile devices.
+It is not responsive for desktop or tablet screens.
+The layout, UI components, and styles are optimized for small screen sizes.
+For the best experience, please open this app on a mobile phone or use your browser’s mobile view (device toolbar in developer tools).
+In the future, responsiveness for larger screens may be added.
